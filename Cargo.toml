@@ -2,6 +2,7 @@
 name = "acid64"
 version = "0.1.0"
 edition = "2024"
+description = "A simple base64 decoder"
 license = "MIT"
 repository = "https://github.com/coffeefreak101/acid64"
 readme = "README.md"
