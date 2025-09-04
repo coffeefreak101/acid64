@@ -2,6 +2,9 @@
 name = "acid64"
 version = "0.1.0"
 edition = "2024"
+license = "MIT"
+repository = "https://github.com/coffeefreak101/acid64"
+readme = "README.md"
 
 [dependencies]
 base64 = "0.22.1"
