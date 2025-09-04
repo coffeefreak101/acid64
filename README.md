@@ -19,25 +19,25 @@ Supports input from command-line arguments, files, or stdin.
 
 # Decode standard Base64 from CLI
 ```shell
-cargo run -- "SGVsbG8gd29ybGQ="
+acid64 "SGVsbG8gd29ybGQ="
 ```
 
 # Decode Base64URL from CLI
 ```shell
-cargo run -- -u "YWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXotLS0_"
+acid64 -u "YWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXotLS0_"
 ```
 
 # Decode from file
 ```shell
-cargo run -- -f input.txt
+acid64 -f input.txt
 ```
 
 # Decode from stdin
 ```shell
-echo "SGVsbG8gd29ybGQ=" | cargo run --
+echo "SGVsbG8gd29ybGQ=" | acid64
 ```
 
 # Decode Base64URL from file, ignoring padding
 ```shell
-cargo run -- -p "SGVsbG8td29ybGQ"
+acid64 -p "SGVsbG8td29ybGQ"
 ```
